@@ -1,0 +1,58 @@
+.sideBar {
+  min-width: 200px;
+  flex: 0.20;
+  background: #202433;
+  height: 100vh;
+  //padding: 0 20px;
+  position: relative;
+}
+
+.sideBarHeader {
+  padding: 20px;
+
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: white;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.sideBarSearch {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: #33394F 1px solid;
+  border-bottom: #33394F 1px solid;
+  padding: 10px 20px;
+}
+
+.sideBarChats {
+  overflow: hidden;
+}
+
+.sideBarNav {
+  position: absolute;
+  width: 100%;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  border-top: #33394F 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  img {
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+  }
+}

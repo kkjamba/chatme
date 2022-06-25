@@ -1,0 +1,40 @@
+.sideBarChat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: #33394F;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .sideBarChatInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    h3 {
+      margin: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+
+    p {
+      margin: 0;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+
+}
+
